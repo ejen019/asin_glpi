@@ -1,0 +1,20 @@
+# GLPI runtime / instance-specific
+config/config_db.php
+config/glpicrypt.key
+files/
+marketplace/
+plugins/
+
+# logs and cache
+*.log
+.cache/
+.tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / build
+node_modules/
