@@ -116,10 +116,23 @@ Checklist recommandee :
 
 Les captures ci-dessous sont reservees a la personnalisation locale ASIN et seront ajoutees manuellement :
 
-* Ecran de connexion : `pics/screenshots/asin-login.png`
-* Ecran mot de passe oublie : `pics/screenshots/asin-forgot-password.png`
-* Menu principal : `pics/screenshots/asin-menu.png`
-* Tableau de bord : `pics/screenshots/asin-dashboard.png`
+* Ecran de connexion :
+* <img width="1919" height="1079" alt="Login" src="https://github.com/user-attachments/assets/b6c4dfd8-989b-482e-80b0-683ffe550221" />
+
+* Ecran mot de passe oublie :
+* <img width="1919" height="1072" alt="Mdp_Oublie" src="https://github.com/user-attachments/assets/21f567e4-7b73-451c-9006-8dc3299ab364" />
+
+* Accueil SideBar Deployee :
+* <img width="1920" height="1080" alt="Accueil-SideBar_deployee" src="https://github.com/user-attachments/assets/59f1de7d-3721-4905-93aa-2b860eb3b7ad" />
+
+* Accueil SideBar Repliee :
+* <img width="1920" height="1080" alt="Accueil-SideBar_repliee" src="https://github.com/user-attachments/assets/c995e45b-1476-47a8-be48-93bb45757764" />
+
+* Page commune exemple :
+* <img width="1919" height="1079" alt="Page_dexemple" src="https://github.com/user-attachments/assets/53c09c0d-c7e4-44c0-b7b8-ff95768fef40" />
+
+* SideBar :
+* <img width="403" height="1079" alt="SideBar" src="https://github.com/user-attachments/assets/fa46dfd0-61db-41a0-9fb2-f9da66be23ec" />
 
 ## Maintenance
 
