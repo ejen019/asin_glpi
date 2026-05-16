@@ -34,10 +34,13 @@
 {% extends 'layout/page_card_notlogged.html.twig' %}
 
 {% block content_block %}
+   {# formulaire de connexion principal #}
    <form action="{{ path('front/login.php') }}" method="post" autocomplete="off"  data-submit-once>
+      {# champs caches de securite et de redirection #}
       <input type="hidden" name="noAUTO" value="{{ noAuto }}" />
       <input type="hidden" name="redirect" value="{{ redirect }}" />
       <input type="hidden" name="_glpi_csrf_token" value="{{ csrf_token() }}" />
+      {# forcer lauthentification locale #}
       <input type="hidden" name="auth" value="local" />
 
       <div class="row justify-content-center">
@@ -50,6 +53,7 @@
                <input type="text" class="form-control" id="login_name" name="{{ namfield }}" placeholder="" tabindex="1" />
             </div>
             <div class="mb-4">
+               {# zone mot de passe et lien de recuperation #}
                <label class="form-label" for="login_password">
                   Mot de passe
                </label>
@@ -78,6 +82,7 @@
             {% endif %}
 
             <div class="form-footer">
+               {# bouton de soumission du formulaire #}
                <button type="submit" name="submit" class="btn btn-primary w-100" tabindex="3">
                   Se connecter
                </button>
@@ -92,6 +97,7 @@
          </div>
 
          {% if right_panel %}
+            {# colonne optionnelle pour contenu et faq #}
             <div class="col-auto px-2 text-center">
                {% if text_login|length > 0 %}
                   <div class="rich_text_container">
@@ -122,7 +128,8 @@
 {% block javascript_block %}
 <script type="text/javascript">
    $(function () {
-$('#login_name').focus();
+      // placer le curseur sur le champ identifiant
+      $('#login_name').focus();
 });
 </script>
 {% endblock %}

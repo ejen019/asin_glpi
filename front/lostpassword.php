@@ -42,18 +42,23 @@ include('../inc/includes.php');
 
 $user = new User();
 
-// Manage lost password
-// REQUEST needed : GET on first access / POST on submit form
+// gerer la page mot de passe oublie
+// utiliser get pour ouvrir la page
+// utiliser post pour envoyer le formulaire
 if (isset($_REQUEST['password_forget_token'])) {
+    // mettre a jour le mot de passe avec le jeton
     if (isset($_POST['password'])) {
         $user->showUpdateForgottenPassword($_REQUEST);
     } else {
+        // afficher le formulaire de nouveau mot de passe
         User::showPasswordForgetChangeForm($_REQUEST['password_forget_token']);
     }
 } else {
+    // envoyer lemail de recuperation
     if (isset($_POST['email'])) {
         $user->showForgetPassword($_POST['email']);
     } else {
+        // afficher le formulaire de demande par email
         User::showPasswordForgetRequestForm();
     }
 }
