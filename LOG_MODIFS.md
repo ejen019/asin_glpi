@@ -3,31 +3,34 @@
 Date de départ : 2026-03-12
 
 ## Note AMM
-JE centralise ici les changements faits sur GLPI2 avec des phrases courtes et claires.
+Centralisation des changements faits sur GLPI2 avec des phrases courtes et claires.
 
 ## 2026-03-12
-- JE crée le dossier `/var/www/html/glpi2`.
-- JE décompresse GLPI `10.0.16` dans ce dossier.
-- JE crée la palette `oceanic` dans `css/palettes/oceanic.scss`.
-- JE ajoute `css/includes/_premium_overrides.scss` pour le style login, menu, topbar, boutons et cartes.
-- JE ajoute un aperçu de palette `oceanic.png`.
-- JE copie les logos ASIN et le favicon dans `pics/`.
-- JE configure Apache sur le port `8081` avec un vhost pour GLPI2.
-- JE donne les droits nécessaires à Apache pour `config/`, `files/` et `marketplace/` pendant l’installation.
-- JE crée la base `glpi2` et l’utilisateur SQL `glpi2_user`.
-- JE ajuste plusieurs fois le rendu visuel : sidebar, topbar, hover, menu replié, logo, dashboard.
-- JE personnalise la page login (logo, mise en page, footer, lien mot de passe oublié).
-- JE remplace le texte “Interface standard” par “Interface standard ASIN-GLPI” dans les locales FR.
+- Creation du dossier `/var/www/html/glpi2`.
+- Decompression de GLPI `10.0.16` dans ce dossier.
+- Creation de la palette `oceanic` dans `css/palettes/oceanic.scss`.
+- Ajout de `css/includes/_premium_overrides.scss` pour le style login, menu, topbar, boutons et cartes.
+- Ajout d’un apercu de palette `oceanic.png`.
+- Copie des logos ASIN et du favicon dans `pics/`.
+- Configuration d’Apache sur le port `8081` avec un vhost pour GLPI2.
+- Attribution des droits necessaires a Apache pour `config/`, `files/` et `marketplace/` pendant l’installation.
+- Creation de la base `glpi2` et de l’utilisateur SQL `glpi2_user`.
+- Ajustements visuels successifs : sidebar, topbar, hover, menu replie, logo, dashboard.
+- Personnalisation de la page login (logo, mise en page, footer, lien mot de passe oublie).
+- Remplacement du texte “Interface standard” par “Interface standard ASIN-GLPI” dans les locales FR.
 
 ## 2026-05-11
-- JE masque le choix de source d’authentification sur la page login.
-- JE force l’authentification locale via un champ caché `auth=local`.
-- JE modifie le footer login en `ASIN-2026`.
-- JE corrige le lien “Mot de passe oublié ?” avec la bonne syntaxe Twig.
-- JE corrige le cas de page vide dans `front/lostpassword.php`.
-- JE garde le lien de récupération visible sur la page login.
-- JE ajuste l’UI de la page “Mot de passe oublié” (icône, espacements, bouton retour).
-- JE traduis en français les textes visibles des pages login et récupération.
+- Masquage du choix de source d’authentification sur la page login.
+- Forcage de l’authentification locale via un champ cache `auth=local`.
+- Modification du footer login en `ASIN-2026`.
+- Correction du lien “Mot de passe oublie ?” avec la bonne syntaxe Twig.
+- Correction du cas de page vide dans `front/lostpassword.php`.
+- Conservation du lien de recuperation visible sur la page login.
+- Ajustement de l’UI de la page “Mot de passe oublie” (icone, espacements, bouton retour).
+- Traduction en francais des textes visibles des pages login et recuperation.
+
+## 2026-05-16
+- Francisation des textes restants en anglais sur les ecrans de connexion et de recuperation du mot de passe.
 
 ## Fichiers principaux modifiés
 - `css/palettes/oceanic.scss`
@@ -38,4 +41,4 @@ JE centralise ici les changements faits sur GLPI2 avec des phrases courtes et cl
 - `pics/logos/logo-asin-colors.png`
 
 ## Note AMM (suite)
-JE continuerai à tenir ce journal à chaque changement important.
+Mise a jour continue de ce journal a chaque changement important.

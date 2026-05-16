@@ -4,6 +4,22 @@
 [![Github All Releases](https://img.shields.io/github/downloads/glpi-project/glpi/total.svg)](#download)
 [![Twitter Follow](https://img.shields.io/twitter/follow/GLPI_PROJECT.svg?style=social&label=Follow)](https://twitter.com/GLPI_PROJECT)
 
+## A propos de GLPI
+
+GLPI signifie **Gestionnaire Libre de Parc Informatique**. C'est une solution libre de gestion de parc IT et de service desk, avec des fonctionnalites alignees ITIL.
+
+Fonctionnalites principales :
+
+* Gestion des actifs et des configurations (SACM)
+* Gestion des demandes, incidents et problemes
+* Gestion des changements
+* Base de connaissances et FAQ
+* Gestion des contrats, licences et aspects financiers
+* Reservation de materiel, gestion de datacenter (DCIM), catalogues de services
+* Separation par entites, gestion de projets et planification d'interventions
+
+GLPI prend egalement en charge de nombreux plugins : [plugins.glpi-project.org](http://plugins.glpi-project.org)
+
 
 ## About GLPI
 
@@ -70,6 +86,15 @@ It is distributed under the GNU GENERAL PUBLIC LICENSE Version 3 - please consul
 **Dashboards**
 
 ![Asset dashboard](pics/screenshots/dashboard.png)
+
+## Captures ASIN-GLPI (a completer)
+
+Les captures ci-dessous sont reservees a la personnalisation locale ASIN et seront ajoutees manuellement :
+
+* Ecran de connexion : `pics/screenshots/asin-login.png`
+* Ecran mot de passe oublie : `pics/screenshots/asin-forgot-password.png`
+* Menu principal : `pics/screenshots/asin-menu.png`
+* Tableau de bord : `pics/screenshots/asin-dashboard.png`
 
 ## Prerequisites
 
