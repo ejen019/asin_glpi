@@ -40,16 +40,6 @@ $SECURITY_STRATEGY = 'no_check';
 
 include('../inc/includes.php');
 
-if (
-    !$CFG_GLPI['notifications_mailing']
-    || !countElementsInTable(
-        'glpi_notifications',
-        ['itemtype' => 'User', 'event' => 'passwordforget', 'is_active' => 1]
-    )
-) {
-    exit();
-}
-
 $user = new User();
 
 // Manage lost password
